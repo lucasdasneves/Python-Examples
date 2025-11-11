@@ -104,7 +104,7 @@ class Person:
   id: str = field(default_factory=generate_id)
 
 def main() -> None:
-  person = Person(name="John", address="123 Main St"
+  person = Person(name="John", address="123 Main St")
   print(person)
 
 #restrictioned class
